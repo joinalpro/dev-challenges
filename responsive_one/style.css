@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.first-container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #883AE1;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+/* responsive styles start here */
+@media screen and (max-width:640px) {
+    .first-container {
+        width: 600px;
+        margin: 0 auto;
+        padding-top: 10px;
+        
+    }
+    .img-container img {
+        width: 600px;
+        border-radius: 10px;
+    }
+}
