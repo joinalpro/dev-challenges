@@ -12,14 +12,24 @@
     border-radius: 10px;
 }
 .btn {
-    padding: 10px 15px;
+    padding: 7px 15px;
     border-radius: 15px;
-    background-color: #883AE1;
+    background-color: #E6D6FC;
     border: none;
-    color: white;
+    color: #883AE1;
     margin-top: 10px;
 }
-
+.content-area h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.content-area p {
+    opacity: 0.7;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* responsive styles start here */
 @media screen and (max-width:640px) {
     .first-container {
